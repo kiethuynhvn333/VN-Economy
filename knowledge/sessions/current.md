@@ -14,6 +14,9 @@
 - Grouped the durable research layer under `knowledge/` so the root exposes fewer conceptual areas.
 - Grouped runtime source under `src/`, updating Vinext, Drizzle, TypeScript, and test paths.
 - Nested generated Drizzle migrations under `src/db/migrations/` and updated its output path.
+- Merged PR #1 into `main` after host-level `gh` access confirmed the macOS Keychain credential.
+- Recorded the sandbox/Keychain authentication mismatch and recovery procedure in
+  `knowledge/context/github-auth.md` and decision D-006.
 
 ## Next actions
 
